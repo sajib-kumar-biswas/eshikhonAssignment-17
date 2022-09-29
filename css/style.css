@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #FF577F;
+    color: white;
+    width: fit-content;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+/* ============= start of Stay focused section ============= */
+
+section.stayFocus {
+
+}
+
+section.stayFocus .container {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+section.stayFocus .container .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.stayFocus .container .left h1 {
+    font-size: 4rem;
+    border-left: 4px solid #FF577F;
+    padding-left: 0.8rem;
+}
+
+section.stayFocus .container .left h1 span {
+    color: orange;
+}
+
+section.stayFocus .container .left p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+section.stayFocus .container .right {
+    flex: 1;
+}
+
+section.stayFocus .container .right img {
+    object-fit: cover;
+}
+
+/* ================== end of Stay focused section ============ */
+
+
+/* ================== start of my mission section ============ */
+
+section.myMission .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+section.myMission .container h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+section.myMission .container h2 span{
+    color: orange;
+}
+
+section.myMission .container .cardContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+section.myMission .container .cardContainer .card {
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+}
+
+section.myMission .container .cardContainer .card:nth-child(1) {
+    background-color: #8BBCCC;
+}
+
+section.myMission .container .cardContainer .card:nth-child(2) {
+    background-color: #FFD6EC;
+}
+
+section.myMission .container .cardContainer .card:nth-child(3) {
+    background-color: #FFD384;
+}
+
+section.myMission .container .cardContainer .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+section.myMission .container .cardContainer .card h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+section.myMission .container .cardContainer .card p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* ================== end of my mission section ============ */
+
+/* ============ start of develop community */
+
+section.developCommunity .contentContainer {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+section.developCommunity .contentContainer .content {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.developCommunity .contentContainer .content h3{
+    font-size: 2rem;
+}
+
+section.developCommunity .contentContainer .content h3 span{
+    display: block;
+}
+section.developCommunity .contentContainer .content p{
+    font-size: 1.2rem;
+}
+section.developCommunity .contentContainer .imgContainer{
+    flex: 40%;
+    position: relative;
+}
+
+section.developCommunity .contentContainer:nth-child(1) .imgContainer .absolute{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    top: 10%;
+    left: -20%;
+}
+
+section.developCommunity .contentContainer:nth-child(1) .imgContainer .relative{
+    position: relative;
+    z-index: 1;
+}
+
+section.developCommunity .contentContainer:nth-child(2) .imgContainer .absolute{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    object-fit: cover;
+    right: -20%;
+    bottom: -20%;
+}
+
+section.developCommunity .contentContainer:nth-child(2) .imgContainer .relative{
+   position: relative;
+   z-index: 1;
+}
+
+/*  ============ end of develop community */
+
+
+ /* =============== start of  application section ========== */
+
+    section.application .container {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    section.application .container h2 {
+        font-size: 3rem;
+    }
+
+    section.application .container h2 span{
+        color: orange;
+    }
+    
+    section.application .container .content {
+        display: flex;
+        align-items: center;
+    }
+
+    section.application .container .content .left {
+        flex: 1;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.application .container .content .left .relative{
+        height: 28rem;
+        width: 13rem;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* section.application .container .content .left .absolute{
+        position: absolute;
+        object-fit: cover;
+    } */
+
+    section.application .container .content .left .one{
+        height: 8rem;
+        width: 8rem;
+        position: absolute;
+        object-fit: cover;
+        top: -2rem;
+        left: 7rem;
+    }
+
+    section.application .container .content .left .two{
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        object-fit: cover;
+        right: 9rem;
+        bottom: 10rem;
+    }
+
+    section.application .container .content .left .three{
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        object-fit: cover;
+        bottom: 0;
+        left: 9rem;
+    }
+
+    section.application .container .content .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section.application .container .content .right h3{
+        font-size: 2rem;
+    }
+
+    section.application .container .content .right p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    section.application .container .content .right h3 span.break{
+        display: block;
+    }
+
+    section.application .container .content .right h3 span.color{
+        color: orange;
+    }
+/* ============= end of  application section =============== */
+
+/* ==================== start of footer section =============== */
+
+ section.footer {
+    background-color: #182747;
+    color: white;
+    padding: 3rem;
+ }
+
+ section.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ section.footer .container h3 {
+    margin: 1rem;
+ }
+
+ section.footer .container span {
+    color: #FF577F;
+ }
+
+ section.footer .container p {
+    letter-spacing: 2px;
+ }
+
+/* ==================== end of footer section =============== */
